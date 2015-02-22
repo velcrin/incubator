@@ -1,7 +1,3 @@
-# Usage
-# docker build -t velcrin/incubator .
-# docker run -vit `pwd`:/workspace -e USER=$USER -e USERID=$UID -p 3000:3000 -p 35729:35729 velcrin/incubator
-
 FROM node:0.12.0
 MAINTAINER Vincent Elcrin <vincent.elcrin@gmail.com>
 
